@@ -1,6 +1,7 @@
 ---
 Title: Docs
 Description: Documentation that came with Pico.
+Icon: "📖 "
 # hidden: true
 ---
 

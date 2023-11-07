@@ -112,16 +112,16 @@
         },
         {
             "name": "mos/cimage",
-            "version": "v0.8.5",
+            "version": "v0.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mosbth/cimage.git",
-                "reference": "1666ea14125fba1fd40ce35389fce7f9c1747f56"
+                "reference": "b44be78f063c596c20916ae58f89cf40a01901f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mosbth/cimage/zipball/1666ea14125fba1fd40ce35389fce7f9c1747f56",
-                "reference": "1666ea14125fba1fd40ce35389fce7f9c1747f56",
+                "url": "https://api.github.com/repos/mosbth/cimage/zipball/b44be78f063c596c20916ae58f89cf40a01901f2",
+                "reference": "b44be78f063c596c20916ae58f89cf40a01901f2",
                 "shasum": ""
             },
             "require": {
@@ -171,9 +171,9 @@
             "support": {
                 "docs": "http://dbwebb.se/opensource/cimage",
                 "issues": "https://github.com/mosbth/cimage/issues",
-                "source": "https://github.com/mosbth/cimage/tree/v0.8.5"
+                "source": "https://github.com/mosbth/cimage/tree/v0.8.6"
             },
-            "time": "2022-11-17T15:08:48+00:00"
+            "time": "2023-10-27T08:20:16+00:00"
         },
         {
             "name": "picocms/pico",

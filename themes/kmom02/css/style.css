@@ -6543,6 +6543,58 @@ img {
   max-width: 100%;
 }
 
+/* technology.scss */
+/* landingpage */
+.technology .landingpage {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em 1em;
+  grid-auto-rows: 1fr;
+}
+.technology .landingpage h1 {
+  justify-self: center;
+}
+.technology .landingpage .box {
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+@media (min-width: 767px) {
+  .technology .landingpage {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .technology .landingpage h1 {
+    grid-column: span 3;
+  }
+  .technology .landingpage .box {
+    grid-column: span 2;
+  }
+  .technology .landingpage .box.narrow {
+    grid-column: span 1;
+  }
+  .technology .landingpage .box.wide {
+    grid-column: span 3;
+  }
+}
+
+/* content */
+.technology.main:has(aside) {
+  display: flex;
+}
+
+.technology aside {
+  padding: 1em;
+}
+.technology aside ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+@media (max-width: 767px) {
+  .technology aside {
+    display: none;
+  }
+}
+
 /* Header */
 .header, .site-header {
   display: flex;

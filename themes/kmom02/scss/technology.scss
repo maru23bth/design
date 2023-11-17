@@ -1,0 +1,68 @@
+/* technology.scss */
+
+/* landingpage */
+.technology {
+    .landingpage {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em 1em;
+        grid-auto-rows: 1fr;
+    }
+
+    .landingpage h1 {
+        justify-self: center;
+    }
+
+    .landingpage .box {
+        border: 1px solid $font-color;
+        border-radius: .5em;
+        padding: 0.5em;
+    }
+
+
+
+    @media (min-width: $break-point) {
+        .landingpage {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .landingpage h1 {
+            grid-column: span 3;
+        }
+
+        .landingpage .box {
+            grid-column: span 2;
+        }
+
+        .landingpage .box.narrow {
+            grid-column: span 1;
+        }
+
+        .landingpage .box.wide {
+            grid-column: span 3;
+        }
+    }
+}
+
+/* content */
+.technology.main:has(aside) {
+    display: flex;
+}
+
+.technology {
+    aside {
+        padding: 1em;
+    }
+
+    aside ul {
+        list-style: none;
+        padding-inline-start: 0;
+    }
+
+
+    @media (max-width: $break-point) {
+        aside {
+            display: none;
+        }
+    }
+}

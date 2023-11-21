@@ -6588,6 +6588,7 @@ img {
 .technology aside ul {
   list-style: none;
   padding-inline-start: 0;
+  display: grid;
 }
 @media (max-width: 767px) {
   .technology aside {

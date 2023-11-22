@@ -45,8 +45,9 @@
 }
 
 /* content */
-.technology.main:has(aside) {
+.technology.main .single {
     display: flex;
+    gap: 1rem;
 }
 
 .technology {

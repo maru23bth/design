@@ -10,16 +10,18 @@
             {{ content }}
         </div>
         {% else %}
-        <aside>
-            <ul>
-                {% for page in pages("technology") if not page.hidden %}
-                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-                {% endfor %}
-            </ul>
-        </aside>
+        <div class="single">
+            <aside>
+                <ul>
+                    {% for page in pages("technology") if not page.hidden %}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </aside>
 
-        <div class="content">
-            {{ content }}
+            <div class="content">
+                {{ content }}
+            </div>
         </div>
         {% endif %}
     </div>

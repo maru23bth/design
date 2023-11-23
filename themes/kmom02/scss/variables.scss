@@ -1,12 +1,35 @@
+/** Grey **/
+$dark-mode: false;
 $font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-//$background-color: #3d5a80;
 $background-color: #fff;
-$background-alternative-color: #e0fbfc;
+$background-block: #f5f5f5;
+$border-color: #ccc;
+
+
+/** Green **/
+$dark-mode: false;
+$font-color: #003D12;
+$background-color: #FFFFFF;
+$background-block: #7ACC93;
+$border-color: #14662D;
+
+
+/** Blue **/
+$dark-mode: false;
+$font-color: #072E38;
+$background-color: #DDF4FA;
+$background-block: #8FBCC7;
+$border-color: #4D8694;
+
 
 $break-point: 767px;
 
+$padding-sm: .5rem;
+$padding-md: 1rem;
+$padding-lg: 2rem;
+$padding-xl: 3rem;
+
+$max-width: 60rem;
 
 
 :root {

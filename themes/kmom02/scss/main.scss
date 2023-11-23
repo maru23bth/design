@@ -1,0 +1,31 @@
+* {
+    color: $font-color;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    background-color: $background-color;
+    height: 100%;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: $padding;
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+}

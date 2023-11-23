@@ -6441,15 +6441,15 @@ blockquote {
   font-style: italic;
   margin-left: 1em;
   padding-left: 1em;
-  border-left: 0.5em solid #ccc;
+  border-left: 0.5em solid #333;
 }
 
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
+  border: 1px solid #333;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #1d1d1d;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6457,9 +6457,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #ccc;
+  border: 1px solid #333;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #1d1d1d;
 }
 
 pre code {
@@ -6557,8 +6557,8 @@ img {
   justify-self: center;
 }
 .technology .landingpage .box {
-  border: 1px solid #ccc;
-  background: #f5f5f5;
+  border: 1px solid #333;
+  background: #1d1d1d;
   border-radius: 0.5em;
   padding: 0.5em;
 }
@@ -6601,8 +6601,8 @@ img {
 
 /* Header */
 .header-container {
-  background-color: #f5f5f5;
-  border-block-end: 1px solid #ccc;
+  background-color: #1d1d1d;
+  border-block-end: 1px solid #333;
 }
 
 .header, .site-header {
@@ -6624,6 +6624,7 @@ img {
 
 .logo img {
   max-height: 7rem;
+  filter: grayscale(1);
 }
 
 @media (max-width: 767px) {
@@ -6644,8 +6645,8 @@ img {
 
 /* Footer */
 .footer-container {
-  border-block-start: 1px solid #ccc;
-  background-color: #f5f5f5;
+  border-block-start: 1px solid #333;
+  background-color: #1d1d1d;
 }
 
 .footer {
@@ -6679,7 +6680,7 @@ img {
 }
 
 * {
-  color: #000;
+  color: rgba(255, 255, 255, 0.87);
   box-sizing: border-box;
 }
 
@@ -6688,7 +6689,7 @@ img {
 }
 
 html, body {
-  background-color: #fff;
+  background-color: #121212;
   height: 100%;
   border: 0 none;
   margin: 0;

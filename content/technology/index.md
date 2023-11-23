@@ -1,5 +1,5 @@
 ---
-Title: Technologies
+Title: Tech
 Description: Technologies index page.
 Icon: "⚙ "
 Template: technologies

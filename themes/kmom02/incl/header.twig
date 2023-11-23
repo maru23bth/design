@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="sv">
 
 <head>
     <meta charset="utf-8" />
@@ -16,5 +16,11 @@
 
     <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.ico">
     <!--link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" as="style" onload="this.onload = null;this.rel = 'stylesheet'"-->
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    <!--link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" /-->
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% endif %}
+
 </head>

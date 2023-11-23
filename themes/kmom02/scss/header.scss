@@ -1,23 +1,38 @@
 /* Header */
 
+.header-container {
+    background-color: $background-block;
+    border-block-end: 1px solid $border-color;
+}
+
 .header, .site-header {
     display: flex;
     justify-content: space-between;
 }
 
+.header {
+    flex: 0 0 auto;
+    max-width: $max-width + 10;
+    margin: 0 auto;
+    width: 100%;
+}
+
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: $padding;
 }
    
 .logo img {
     max-height: 7rem;
+    @if $dark-mode {
+        filter: grayscale(1);
+    }
 }
 
 @media (max-width: $break-point) {
     .title, .logo {
-        padding: $padding $padding $padding 0;
+        //padding: $padding $padding $padding 0;
     }
 
     .title {
@@ -25,12 +40,12 @@
     }
 
     .logo {
-        max-width: 30%;
+        max-width: 50%;
     }
 }
 
 .title * {
-    color: #111;
+    //color: #111;
 }
 
 .title p {

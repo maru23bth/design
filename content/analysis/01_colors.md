@@ -78,7 +78,7 @@ Färgpaletten var nästan identisk på alla tre webbsidorna, det hade jag inte f
 Personligen förknippar jag bara rött till Aftonbladet.
 
 Som nyhetssida tror jag man vill framstå som seriös och strukturerad.  
-Och just nu verkar det ledande konceptet vara <span style="background-color:white">vit</span> bakgrund med svart typsnitt av <spand style="font-face:sans-serif">sans-serif</span> typ och med en <span style="color:red">röd</a> accentfärg.
+Och just nu verkar det ledande konceptet vara <span style="background-color:white">vit</span> bakgrund med svart typsnitt av <spand style="font-face:sans-serif">sans-serif</span> typ och med en <span style="color:red">röd</span> accentfärg.
 
 
 Referenser

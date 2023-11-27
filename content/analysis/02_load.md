@@ -18,7 +18,7 @@ Metod
 
 Webbplatserna analyserades i webbläsaren Chrome i ett inkognitofönster, så ingen sparad webbläsardata ska påverka mätvärden.
 
-Mätningar gjordes både i fullstort "desktop" läge och lite "mobilt" läge som emulerar en Iphone.
+Mätningar gjordes både i fullstort "desktop" läge och litet "mobilt" läge som emulerar en Iphone.
 
 Network-inpektionsverktyg i Chrome användes för att se laddningstid, resurser som laddas och hur mycket data som överförs.
 Data som överförs mäter jag i komprimerad form (så som det överförs från servrarna).
@@ -88,9 +88,9 @@ SVT Nyheter vinner i min bedömning.
 Laddar extremt snabbt och får 100% i tillgänglighetsbedömningen.
 
 Aftonbladet och Dagens Nyheter kommer sedan ganska jämnt.  
-Båda "lider" av problemet att de visar annonser, som de dessutom antagligen inte kontrollerar själva.
+Båda lider av problemet att de visar annonser, som de dessutom antagligen inte kontrollerar själva.
 Vid mina besök så har Dagens Nyheter större annonser som dessutom får innehållet på sidan att hoppa ner vid laddning.
-Det är det som får mig att sätta Aftonbladet som två och Dagens Nyheter som trea.
+Det är det som får mig att välja Aftonbladet som två och Dagens Nyheter som trea.
 
 Absolut laddningstid är för mig inte det viktiga, som jag såg i testet så tog någon sidan nästan en halvminut att ladda alla resurser.
 Detta upplevdes dock inte alls på webbsidan, då huvudinnehållet ritades upp snabbt.  

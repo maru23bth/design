@@ -27,7 +27,7 @@ Och inpektionsverktyg i Chrome för att se typsnitt som används.
 Resultat
 -----------------------
 
-<a href="%base_url%/image/analysis/svt.png">
+<a href="%base_url%/image/analysis/svt.png" title="Skärmdump Svt Nyheter">
 <img alt="Svt Nyheter" src="%base_url%/image/analysis/svt.png?h=200&w=200&crop-to-fit" style="float: left;margin: 0 1em 1em 0;clear: both;">
 </a>
 
@@ -46,7 +46,7 @@ Font som används i både rubriker och brödtext är Publik,Helvetica,Arial.
 
 Jag blev lite förvånad att Svt använde rött, det är inte den färgen jag associerar med Svt, i övrigt har sidan ett strukturerat intryck som jag tror representerar budskapet på ett bra sätt.
 
-<a href="%base_url%/image/analysis/dn.png">
+<a href="%base_url%/image/analysis/dn.png" title="Skärmdump Dagens Nyheter">
 <img alt="Dagens Nyheter" src="%base_url%/image/analysis/dn.png?h=200&w=200&crop-to-fit" style="float: left;margin: 0 1em 1em 0;clear: both;">
 </a>
 
@@ -66,7 +66,7 @@ I vissa rubriker används DNSansVF,Helvetica,Arial,sans-serif
 
 Dagens Nyheter har väldigt stora reklaminslag som jag tycker förtar seriositeten jag tror DN vill förmedla, i övrigt har sidan ett strukturerat intryck som jag tycker representerar budskapet.
 
-<a href="%base_url%/image/analysis/aftonbladet.png">
+<a href="%base_url%/image/analysis/aftonbladet.png" title="Skärmdump Aftonbladet">
 <img alt="Aftonbladet" src="%base_url%/image/analysis/aftonbladet.png?h=200&w=200&crop-to-fit" style="float: left;margin: 0 1em 1em 0;clear: both;">
 </a>
 ### Aftonbladet
@@ -100,7 +100,7 @@ Färgpaletten var nästan identisk på alla tre webbsidorna, det hade jag inte f
 Personligen förknippar jag bara rött till Aftonbladet.
 
 Som nyhetssida tror jag man vill framstå som seriös och strukturerad.  
-Och min analys är att just nu är det ledande konceptet <span style="background-color:white">vit</span> bakgrund med svart typsnitt av <spand style="font-face:sans-serif">sans-serif</span> typ och med en <span style="color:red">röd</span> accentfärg.
+Och min analys är att just nu är det ledande konceptet vit bakgrund med svart typsnitt av sans-serif typ och med en röd accentfärg.
 
 
 Referenser

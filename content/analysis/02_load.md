@@ -35,7 +35,7 @@ Data som överförs mäter jag i komprimerad form (så som det överförs från 
 Resultat
 -----------------------
 
-<a href="%base_url%/image/analysis/svt.png">
+<a href="%base_url%/image/analysis/svt.png" title="Skärmdump Svt Nyheter">
 <img alt="Svt Nyheter" src="%base_url%/image/analysis/svt.png?h=200&w=200&crop-to-fit" style="float: left;margin: 0 1em 2em 0;clear: both;">
 </a>
 
@@ -48,7 +48,7 @@ Sidan är väl optimerad och får dessutom 100% i tillgänglighetsbedömning.
 På mobila enheter tar det lite lång tid att nå "Contentful Paint" min bedömning är att detta beror på mätningen med begränsad processorkraft.  
 <br style="clear: both;">
 
-<a href="%base_url%/image/analysis/dn.png">
+<a href="%base_url%/image/analysis/dn.png" title="Skärmdump Dagens Nyheter">
 <img alt="Dagens Nyheter" src="%base_url%/image/analysis/dn.png?h=200&w=200&crop-to-fit" style="float: left;margin: 0 1em 2em 0;clear: both;">
 </a>
 
@@ -61,7 +61,7 @@ Sidan är väl optimerad för "Contentful Paint" och ritar snabbt upp huvudinneh
 Däremot laddar den många annonser, speciellt i dekstopläge vilket jag tror är förklaringen till den långa laddningstiden, detta påverkar dock inte upplevelsen så mycket då huvudinnehållet ritas upp snabbt.  
 <br style="clear: both;">
 
-<a href="%base_url%/image/analysis/aftonbladet.png">
+<a href="%base_url%/image/analysis/aftonbladet.png" title="Skärmdump Aftonbladet">
 <img alt="Aftonbladet" src="%base_url%/image/analysis/aftonbladet.png?h=200&w=200&crop-to-fit" style="float: left;margin: 0 1em 2em 0;clear: both;">
 </a>
 ### Aftonbladet
@@ -105,7 +105,7 @@ Webbplatserna
 * [Aftonbladet](https://www.aftonbladet.se/nyheter)
 
 Uppmätta laddningstider
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSu_SYCpx8tskS9iK7WvTUkfwrEIoFCS7WXmh8rXNVX135B5fe3vqL6sMCQB4qGT7ElHfaBWCJRK13W/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%;height: 13rem;"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSu_SYCpx8tskS9iK7WvTUkfwrEIoFCS7WXmh8rXNVX135B5fe3vqL6sMCQB4qGT7ElHfaBWCJRK13W/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%;height: 13rem;" title="Uppmätta laddningstider"></iframe>
 
 Övrigt
 -----------------------

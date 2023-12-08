@@ -15,7 +15,7 @@ Galleri
             <img src="%base_url%/image/gallery/pexels-1.jpg?w=800" alt="Pexels tea 1" />
         </picture>
     </a>
-    <a href="%base_url%/image/gallery/pexels-2.jpg" target="_blank">
+    <a href="%base_url%/image/gallery/pexels-2.jpg" target="_blank" class="span-2">
         <picture>
             <source media="(max-width: 767px)" srcset="%base_url%/image/gallery/pexels-2.jpg?w=800" />
             <source media="(min-width: 767px)" srcset="%base_url%/image/gallery/pexels-2.jpg?w=400" />
